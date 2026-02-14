@@ -1,0 +1,32 @@
+=== Symbol Table: Global Scope ===
+Parent Scope: NULL
+---------------------------------------------------------------------------------------
+Name		Type		Kind		Value		Params Info
+---------------------------------------------------------------------------------------
+x		int		variable		30		-
+pi		float		variable		3.14		-
+active		bool		variable		false		-
+Data		class		class		-		-
+d		Data		object		-		-
+
+=== Symbol Table: Class Data ===
+Parent Scope: Global Scope
+---------------------------------------------------------------------------------------
+Name		Type		Kind		Value		Params Info
+---------------------------------------------------------------------------------------
+val		int		variable		-		-
+compute		int		function		-		int
+
+=== Symbol Table: Function compute ===
+Parent Scope: Class Data
+---------------------------------------------------------------------------------------
+Name		Type		Kind		Value		Params Info
+---------------------------------------------------------------------------------------
+a		int		parameter		-		-
+
+=== Symbol Table: Main Block ===
+Parent Scope: Global Scope
+---------------------------------------------------------------------------------------
+Name		Type		Kind		Value		Params Info
+---------------------------------------------------------------------------------------
+

@@ -1,0 +1,27 @@
+int x = 10;
+float pi = 3.14;
+bool active = true;
+
+class Data {
+    int val;
+    int compute(int a) { return a; }
+};
+
+class Data d;
+
+main_entry {
+    Print(x);          
+    
+    x = x + 5;         
+    Print(x);          
+    
+    x = x * 2;         
+    Print(x);          
+
+    if (x > 20) {
+        Print(1111);
+    }
+
+    active = false;
+    Print(active);
+}

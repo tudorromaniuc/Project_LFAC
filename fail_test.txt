@@ -1,0 +1,9 @@
+int calculeaza(int a, float b) {
+    return a;
+}
+int a;
+int a;
+main_entry {
+
+    calculeaza(true, 3.5);
+}
